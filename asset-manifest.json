@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GriefTable/static/css/main.f9f1a689.css",
-    "main.js": "/GriefTable/static/js/main.c78e7a1b.js",
+    "main.js": "/GriefTable/static/js/main.92c8a04b.js",
     "static/media/logo.svg": "/GriefTable/static/media/logo.2294401505cdd4b494e13a7b55e2da17.svg",
     "index.html": "/GriefTable/index.html",
     "main.f9f1a689.css.map": "/GriefTable/static/css/main.f9f1a689.css.map",
-    "main.c78e7a1b.js.map": "/GriefTable/static/js/main.c78e7a1b.js.map"
+    "main.92c8a04b.js.map": "/GriefTable/static/js/main.92c8a04b.js.map"
   },
   "entrypoints": [
     "static/css/main.f9f1a689.css",
-    "static/js/main.c78e7a1b.js"
+    "static/js/main.92c8a04b.js"
   ]
 }
