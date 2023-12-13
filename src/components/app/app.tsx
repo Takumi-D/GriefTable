@@ -14,7 +14,7 @@ export function App() {
       <Navbar />
       <Routes>
         <Route
-          path="/Table"
+          path="/GriefTable"
           element={
             <>
               <Tile />
@@ -23,7 +23,7 @@ export function App() {
           }
         />
         <Route
-          path="/Table/:id"
+          path="/GriefTable/:id"
           element={
             <>
               <Tile />

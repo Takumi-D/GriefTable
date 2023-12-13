@@ -5,7 +5,7 @@ import "./navbar.scss";
 function Navbar() {
   return (
     <div className="navbar">
-      <Link to="/Table">Таблица</Link>
+      <Link to="/GriefTable">Таблица</Link>
       <Link to="/Form">Форма</Link>
     </div>
   );

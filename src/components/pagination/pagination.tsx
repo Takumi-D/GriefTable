@@ -23,7 +23,7 @@ function Pagination({ numberOfPages, navigate, parameters }: Props) {
       <li
         aria-hidden="true"
         key={i}
-        onClick={() => navigate(`/Table/${i}`)}
+        onClick={() => navigate(`/GriefTable/${i}`)}
         className={`${numberOfPages === i ? "last-page" : "page"}${
           +parameters.id === i ? " active" : ""
         }`}
@@ -43,7 +43,7 @@ function Pagination({ numberOfPages, navigate, parameters }: Props) {
               // empty
             } else if (+parameters.id <= 1) {
               // empty
-            } else navigate(`/Table/${+parameters.id - 1}`);
+            } else navigate(`/GriefTable/${+parameters.id - 1}`);
           }}
           className="back"
         >
@@ -56,10 +56,10 @@ function Pagination({ numberOfPages, navigate, parameters }: Props) {
           aria-hidden="true"
           onClick={() => {
             if (Object.keys(parameters).length === 0) {
-              navigate(`/Table/${1}`);
+              navigate(`/GriefTable/${1}`);
             } else if (+parameters.id >= numberOfPages) {
               // empty
-            } else navigate(`/Table/${+parameters.id + 1}`);
+            } else navigate(`/GriefTable/${+parameters.id + 1}`);
           }}
           className="next"
         >
