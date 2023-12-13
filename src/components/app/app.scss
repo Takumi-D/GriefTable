@@ -1,0 +1,38 @@
+:root {
+    --var-bgcolor: #fff;
+}
+
+.app{
+    display: flex;
+    flex-flow: column;
+    max-width: 1920px;
+    padding: 0 20rem;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--var-bgcolor);
+    min-height: 100vh;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .app{
+        padding: 0 10rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .app{
+        padding: 0 5rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .app{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .app{
+        padding: 0 20px;
+    }
+}
